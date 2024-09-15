@@ -2,9 +2,9 @@
   <!-- Logo -->
   <a href="#" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
-    <span class="logo-mini"><b>V</b>TS</span>
+    <span class="logo-mini">NT<b>VP</b></span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><b>Voting</b>System</span>
+    <span class="logo-lg"><span style="font-weight: normal; color: #FFD700;">Nebatech</span><b>VotePro</b></span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top">
