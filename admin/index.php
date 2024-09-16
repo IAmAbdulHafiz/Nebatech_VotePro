@@ -46,7 +46,7 @@
 <html>
 	<head>
 		<title> </title>
-		<link rel="stylesheet" href="admin/dist/css/style.css">
+		<link rel="stylesheet" href="../dist/css/style.css">
 		<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
 	</head>
 	<?php include 'includes/header.php'; ?>
@@ -57,7 +57,7 @@
 			<b>Nebatech VotePro</b>
 		</div>
 		<div class="login-logo">
-			<img class="login-logo-icon" src="images/vote_logo.png">
+			<img class="login-logo-icon" src="../images/vote_logo.png">
 		</div>
 	</div>
 	<div class="login-box-right">
@@ -65,7 +65,10 @@
 			<b>Welcome back</b>
 		</div>
 
-		<div class="login-box-container">
+		<div class="login-box-container" style="margin-top: 150px;">
+			<div class="login-logo">
+				<b>Admin</b>
+			</div>
 			<p class="login-box-msg">Sign in to start your session</p>
 
 			<form action="login.php" method="POST">

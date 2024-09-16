@@ -31,8 +31,11 @@
 			<b>Welcome back</b>
 		</div>
 
-		<div class="login-box-container">
-			<p class="login-box-msg">Sign in to start your session</p>
+		<div class="login-box-container" style="margin-top: 150px;">
+			<div class="login-logo">
+				<b>Voter</b>
+			</div>
+			<p class="login-box-msg">Sign in to Vote</p>
 
 			<form action="login.php" method="POST">
 				<div class="form-group has-feedback">
