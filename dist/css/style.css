@@ -1,0 +1,253 @@
+  /* Set the full-screen background */
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/path-to-your-background-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0D121C;
+    z-index: 1;
+  }
+/*
+ * Page: Login & Register
+ * ----------------------
+ */
+ .login-box-left{
+   width: 50%;
+   height: 80%;
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   background-color: #1A1F2B;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.3), 
+   0 4px 8px rgba(0, 0, 0, 0.3), 
+   0 -4px 8px rgba(0, 0, 0, 0.3);
+ }
+
+ .login-logo,
+ .register-logo {
+   font-size: 35px;
+   text-align: center;
+   margin-bottom: 25px;
+   font-weight: 300;
+ }
+ .login-logo a,
+ .register-logo a {
+   color: #444;
+ }
+ .login-page,
+ .register-page {
+   background: #d2d6de;
+ }
+ .login-head{
+    color: #00ff00;
+    width: 60%;
+    height: 50px;
+    
+    margin: 20px 0px;
+    background: #0D121C;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 2.5em;
+ }
+ .welcome-text{
+    color: #00ff00;
+    width: 60%;
+    height: 50px;
+    padding: 5px;
+    margin: 20px 0px;
+    background: #0D121C;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 1.8em;
+ }
+ .login-logo-icon{
+    height: calc(300px);
+    margin: 0 auto; 
+    max-width: 100%;
+   
+ }
+ .login-box-right{
+	backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.699);
+	color: gold;
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3), 
+    0 4px 8px rgba(0, 0, 0, 0.3),  
+    0 -4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+ @media (max-width: 768px) {
+   .login-box-left,
+   .login-box-right {
+        width: 90%;
+        margin-top: 20px;
+   }
+ }
+ .login-box-container{
+    padding: 5px;
+    border-top: 0;
+    color: #0D121C;
+    width: 80%;
+    position: relative;
+    left: 10%;
+ }
+ .form-group-user{
+    border: none;
+    border-bottom: 2px solid #1A1F2B; 
+    padding: 12px 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    background: rgba(255, 250, 250, 0.438);
+    box-sizing: border-box;
+ }
+ .form-group-user:focus {
+    outline: none;
+    border-bottom: 2px solid #0D121C;
+ }
+ .login-box-body .form-control-feedback,
+ .register-box-body .form-control-feedback {
+   color: #777;
+   position: absolute;
+   right: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ .login-box-msg,
+ .register-box-msg {
+   margin: 0;
+   text-align: center;
+   padding: 0 20px 20px 20px;
+ }
+ .social-auth-links {
+   margin: 10px 0;
+ }
+
+ .btn-sign-in {
+    background: #0D121C; /* Background color */
+    color: #00ff00; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 30px; /* Increased padding for a wider button */
+    font-size: 18px; /* Larger font size for better readability */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
+    display: inline-flex; /* Flexbox for alignment */
+    align-items: center; /* Center icon and text vertically */
+    width: 100%; /* Make the button take the full width of its container */
+    max-width: 400px; /* Set a maximum width to prevent it from being too wide */
+}
+
+.btn-sign-in:hover {
+    background: #1a2132; /* Slightly lighter shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+
+}
+
+.btn-sign-in:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); /* Enhanced focus shadow */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+}
+
+.col-xs-4s {
+    display: flex;
+    justify-content: center; /* Center the button horizontally within the column */
+}
+ /*
+  * Page: 400 and 500 error pages
+  * ------------------------------
+  */
+ .error-page {
+   width: 600px;
+   margin: 20px auto 0 auto;
+ }
+ @media (max-width: 991px) {
+   .error-page {
+     width: 100%;
+   }
+ }
+ .error-page > .headline {
+   float: left;
+   font-size: 100px;
+   font-weight: 300;
+ }
+ @media (max-width: 991px) {
+   .error-page > .headline {
+     float: none;
+     text-align: center;
+   }
+ }
+ .error-page > .error-content {
+   margin-left: 190px;
+   display: block;
+ }
+ @media (max-width: 991px) {
+   .error-page > .error-content {
+     margin-left: 0;
+   }
+ }
+ .error-page > .error-content > h3 {
+   font-weight: 300;
+   font-size: 25px;
+ }
+ @media (max-width: 991px) {
+   .error-page > .error-content > h3 {
+     text-align: center;
+   }
+ }
+ /* Footer Styling */
+.login-footer {
+    color: #1a2132; /* White text color for contrast */
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Font size */
+    position: relative;
+    top: 93%;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links in the footer */
+.login-footer a {
+    color: #1a2132; /* Gold color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the link bold */
+}
+
+.login-footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .login-footer {
+        font-size: 12px; /* Slightly smaller text on mobile */
+        padding: 15px 0;
+    }
+}
