@@ -31,7 +31,7 @@
 			<b>Welcome back</b>
 		</div>
 
-		<div class="login-box-container" style="margin-top: 150px;">
+		<div class="login-box-container" style="margin-top: 50px;">
 			<div class="login-logo">
 				<b>Voter</b>
 			</div>
