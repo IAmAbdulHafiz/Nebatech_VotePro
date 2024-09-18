@@ -1,8 +1,8 @@
-<header class="main-header">
-  <nav class="navbar navbar-static-top">
+<header class="main-header" style="background-color: #1A1F2B;">
+  <nav class="navbar navbar-static-top" style="background-color: #1A1F2B;">
     <div class="container">
       <div class="navbar-header">
-        <a href="#" class="navbar-brand"><b>Voting</b>System</a>
+        <a href="home.php" class="navbar-brand" style="font-weight: normal; color: #00ff00; font-size: 2em;"> <span style="font-weight: normal; color: #ffd700;">Nebatech</span> <b>VotePro</b></a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>

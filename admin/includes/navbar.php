@@ -1,15 +1,15 @@
 <header class="main-header">
   <!-- Logo -->
-  <a href="#" class="logo">
+  <a href="#" class="logo" style="background-color: #1A1F2B; color: #00FF00;">
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini">NT<b>VP</b></span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><span style="font-weight: normal; color: #FFD700;">Nebatech</span><b>VotePro</b></span>
+    <span class="logo-lg"><span style="font-weight: normal; color: #FFD700;">Nebatech</span> <b>VotePro</b></span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
-  <nav class="navbar navbar-static-top">
+  <nav class="navbar navbar-static-top" style="background-color: #1A1F2B;"> 
     <!-- Sidebar toggle button-->
-    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" >
       <span class="sr-only">Toggle navigation</span>
     </a>
 
@@ -21,9 +21,9 @@
             <img src="<?php echo (!empty($user['photo'])) ? '../images/'.$user['photo'] : '../images/profile.jpg'; ?>" class="user-image" alt="User Image">
             <span class="hidden-xs"><?php echo $user['firstname'].' '.$user['lastname']; ?></span>
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu" >
             <!-- User image -->
-            <li class="user-header">
+            <li class="user-header" style="background-color: #0D121C;">
               <img src="<?php echo (!empty($user['photo'])) ? '../images/'.$user['photo'] : '../images/profile.jpg'; ?>" class="img-circle" alt="User Image">
 
               <p>

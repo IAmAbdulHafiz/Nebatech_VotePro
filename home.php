@@ -9,12 +9,12 @@
 	    <div class="container">
 
 	      <!-- Main content -->
-	      <section class="content">
+	      <section class="content" >
 	      	<?php
 	      		$parse = parse_ini_file('admin/config.ini', FALSE, INI_SCANNER_RAW);
     			$title = $parse['election_title'];
 	      	?>
-	      	<h1 class="page-header text-center title"><b><?php echo strtoupper($title); ?></b></h1>
+	      	<h1 class="page-header text-center title" style="color: #00ff00;"><b><?php echo strtoupper($title); ?></b></h1>
 	        <div class="row">
 	        	<div class="col-sm-10 col-sm-offset-1">
 	        		<?php

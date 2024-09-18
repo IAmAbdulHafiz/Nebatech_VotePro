@@ -65,7 +65,7 @@
 		?>
 	</div>
 	<footer class="login-footer">
-    	<strong>Copyright &copy; 2024 <a href="https://www.nebatech.com">Nebatech Software Solution</a></strong> <b>All rights reserved</b>
+    	<strong>Copyright &copy; 2024 <a href="https://github.com/IAmAbdulHafiz/Nebatech_VotePro">Nebatech VotePro</a></strong> <b>All rights reserved</b>
 	</footer>
 </div>
 <?php include 'includes/scripts.php' ?>

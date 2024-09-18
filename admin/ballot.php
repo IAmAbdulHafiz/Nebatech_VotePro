@@ -10,7 +10,7 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
+      <h1 style="color: #00ff00;">
         Ballot Position
       </h1>
       <ol class="breadcrumb">

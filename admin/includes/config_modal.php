@@ -1,11 +1,11 @@
 <!-- Config -->
 <div class="modal fade" id="config">
     <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content"  style="background-color: #0D121C;">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title"><b>Configure</b></h4>
+              <h4 class="modal-title" style="color: #00ff00;"><b>Configure</b></h4>
             </div>
             <div class="modal-body">
               <div class="text-center">
@@ -15,7 +15,7 @@
                 ?>
                 <form class="form-horizontal" method="POST" action="config_save.php?return=<?php echo basename($_SERVER['PHP_SELF']); ?>">
                   <div class="form-group">
-                    <label for="title" class="col-sm-3 control-label">Title</label>
+                    <label for="title" class="col-sm-3 control-label" style="color: #00ff00;">Title</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="title" name="title" value="<?php echo $title; ?>">
