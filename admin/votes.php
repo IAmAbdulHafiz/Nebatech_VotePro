@@ -9,13 +9,13 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-header" style="color: #00FF00;">
       <h1>
         Votes
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Votes</li>
+        <li><a href="home.php"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active" >Votes</li>
       </ol>
     </section>
     <!-- Main content -->

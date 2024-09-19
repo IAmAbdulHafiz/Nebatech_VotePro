@@ -1,6 +1,16 @@
 <?php include 'includes/session.php'; ?>
 <?php include 'includes/slugify.php'; ?>
 <?php include 'includes/header.php'; ?>
+
+<style>
+  .icon i {
+    color: #00ff00;
+  }
+  .small-box-footer{
+    background-color: #0D121C;
+  }
+</style>
+
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
@@ -11,7 +21,7 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
+      <h1 style="color: #00ff00">
         Dashboard
       </h1>
       <ol class="breadcrumb">
@@ -21,7 +31,7 @@
     </section>
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content" >
       <?php
         if(isset($_SESSION['error'])){
           echo "
@@ -46,10 +56,10 @@
       ?>
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-xs-6" >
           <!-- small box -->
           <div class="small-box bg-aqua">
-            <div class="inner">
+            <div class="inner" style="background-color: #1A1F2B;">
               <?php
                 $sql = "SELECT * FROM positions";
                 $query = $conn->query($sql);
@@ -62,14 +72,14 @@
             <div class="icon">
               <i class="fa fa-tasks"></i>
             </div>
-            <a href="positions.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="positions.php" class="small-box-footer" style="background-color: green;">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-green">
-            <div class="inner">
+            <div class="inner" style="background-color: #1A1F2B;">
               <?php
                 $sql = "SELECT * FROM candidates";
                 $query = $conn->query($sql);
@@ -82,14 +92,14 @@
             <div class="icon">
               <i class="fa fa-black-tie"></i>
             </div>
-            <a href="candidates.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="candidates.php" class="small-box-footer" style="background-color: green;">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-yellow">
-            <div class="inner">
+            <div class="inner" style="background-color: #1A1F2B;">
               <?php
                 $sql = "SELECT * FROM voters";
                 $query = $conn->query($sql);
@@ -102,14 +112,14 @@
             <div class="icon">
               <i class="fa fa-users"></i>
             </div>
-            <a href="voters.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="voters.php" class="small-box-footer" style="background-color: green;">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-red">
-            <div class="inner">
+            <div class="inner" style="background-color: #1A1F2B;">
               <?php
                 $sql = "SELECT * FROM votes GROUP BY voters_id";
                 $query = $conn->query($sql);
@@ -122,7 +132,7 @@
             <div class="icon">
               <i class="fa fa-edit"></i>
             </div>
-            <a href="votes.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="votes.php" class="small-box-footer" style="background-color: green;">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -130,7 +140,7 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <h3>Votes Tally
+          <h3 style="color: #00ff00">Votes Tally
             <span class="pull-right">
               <a href="print.php" class="btn btn-success btn-sm btn-flat"><span class="glyphicon glyphicon-print"></span> Print</a>
             </span>
@@ -147,13 +157,13 @@
           if($inc == 1) echo "<div class='row'>";
           echo "
             <div class='col-sm-6'>
-              <div class='box box-solid'>
-                <div class='box-header with-border'>
+              <div class='box box-solid' style='background-color: #1A1F2B;'>
+                <div class='box-header with-border' style='background-color: #1A1F2B; color: #fff;'>
                   <h4 class='box-title'><b>".$row['description']."</b></h4>
                 </div>
                 <div class='box-body'>
-                  <div class='chart'>
-                    <canvas id='".slugify($row['description'])."' style='height:200px'></canvas>
+                  <div class='chart' >
+                    <canvas id='".slugify($row['description'])."' style='height:100px;'></canvas>
                   </div>
                 </div>
               </div>
@@ -161,7 +171,7 @@
           ";
           if($inc == 2) echo "</div>";  
         }
-        if($inc == 1) echo "<div class='col-sm-6'></div></div>";
+        if($inc == 1) echo "<div class='col-sm-6' style='background-color: #1A1F2B;'></div></div>";
       ?>
 
       </section>
@@ -201,12 +211,12 @@
         datasets: [
           {
             label               : 'Votes',
-            fillColor           : 'rgba(60,141,188,0.9)',
-            strokeColor         : 'rgba(60,141,188,0.8)',
-            pointColor          : '#3b8bba',
-            pointStrokeColor    : 'rgba(60,141,188,1)',
+            fillColor           : '#FFD700',
+            strokeColor         : '#FFD700',
+            pointColor          : '#FFD700',
+            pointStrokeColor    : '#FFD700',
             pointHighlightFill  : '#fff',
-            pointHighlightStroke: 'rgba(60,141,188,1)',
+            pointHighlightStroke: '#FFD700',
             data                : <?php echo $varray; ?>
           }
         ]

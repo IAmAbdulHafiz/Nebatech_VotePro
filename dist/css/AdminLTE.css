@@ -99,7 +99,7 @@ body {
   z-index: 800;
 }
 .main-footer {
-  background: #fff;
+  background: #0D121C;
   padding: 15px;
   color: #444;
   border-top: 1px solid #d2d6de;
@@ -1273,7 +1273,7 @@ a:focus {
     right: 5%;
     left: auto;
     border: 1px solid #ddd;
-    background: #fff;
+    background: #0D121C;
   }
 }
 /*
@@ -2126,7 +2126,7 @@ a:focus {
 .info-box {
   display: block;
   min-height: 90px;
-  background: #fff;
+  background: #0D121C;
   width: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
@@ -2145,7 +2145,7 @@ a:focus {
   border-radius: 0;
 }
 .info-box .progress .progress-bar {
-  background: #fff;
+  background: #0D121C;
 }
 .info-box-icon {
   border-top-left-radius: 2px;
@@ -2237,7 +2237,7 @@ a:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   margin-top: 0;
-  background: #fff;
+  background: #0D121C;
   color: #444;
   margin-left: 60px;
   margin-right: 15px;
@@ -2586,7 +2586,7 @@ a:focus {
 /* NAV TABS */
 .nav-tabs-custom {
   margin-bottom: 20px;
-  background: #fff;
+  background: #0D121C;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }
@@ -2671,7 +2671,7 @@ a:focus {
   margin-right: 5px;
 }
 .nav-tabs-custom > .tab-content {
-  background: #fff;
+  background: #0D121C;
   padding: 10px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -2721,7 +2721,7 @@ a:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   padding: 10px 0;
-  background: #fff;
+  background: #0D121C;
 }
 .products-list > .item:before,
 .products-list > .item:after {
@@ -3342,7 +3342,7 @@ table.text-center th {
 .lockscreen-item {
   border-radius: 4px;
   padding: 0;
-  background: #fff;
+  background: #0D121C;
   position: relative;
   margin: 10px auto 30px auto;
   width: 290px;
@@ -3353,7 +3353,7 @@ table.text-center th {
   position: absolute;
   left: -10px;
   top: -25px;
-  background: #fff;
+  background: #0D121C;
   padding: 5px;
   z-index: 10;
 }
@@ -3410,7 +3410,7 @@ table.text-center th {
 }
 .login-box-body,
 .register-box-body {
-  background: #0D121C;
+  background: #ecf0f5;
   padding: 20px;
   border-top: 0;
   color: #666;
@@ -3476,7 +3476,7 @@ table.text-center th {
  */
 .invoice {
   position: relative;
-  background: #fff;
+  background: #0D121C;
   border: 1px solid #f4f4f4;
   padding: 20px;
   margin: 10px 25px;
