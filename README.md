@@ -1,6 +1,4 @@
-Here’s a professional and detailed `README.md` file for **Nebatech VotePro**:
-
-```markdown
+```
 # Nebatech VotePro
 
 **Nebatech VotePro** is a secure, responsive, and efficient web-based eVoting system built to facilitate transparent and seamless voting processes. This system allows an administrator to manage candidates, voters, and oversee real-time voting results, while ensuring a smooth and intuitive voting experience for users.
