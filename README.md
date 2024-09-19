@@ -1,4 +1,3 @@
-```
 # Nebatech VotePro
 
 **Nebatech VotePro** is a secure, responsive, and efficient web-based eVoting system built to facilitate transparent and seamless voting processes. This system allows an administrator to manage candidates, voters, and oversee real-time voting results, while ensuring a smooth and intuitive voting experience for users.
@@ -131,12 +130,11 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
-```
-```
+
 ## Author
 **Abdul-Hafiz Yussif**
 
-- GitHub: ([https://github.com/IAmAbdulHafiz])
-- LinkedIn: ([https://www.linkedin.com/in/abdul-hafiz-yussif-30215b220/])
-- Email: ([abdulhafiz@nebatech.com])
-```
+- GitHub: https://github.com/IAmAbdulHafiz
+- LinkedIn: https://www.linkedin.com/in/abdul-hafiz-yussif-30215b220/
+- Email: abdulhafiz@nebatech.com
+
