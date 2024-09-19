@@ -68,7 +68,7 @@ Ensure you have the following installed:
 
 2. **Set up the database:**
    - Create a new MySQL database.
-   - Import the provided SQL file located in the `database/` folder:
+   - Import the provided SQL file located in the `db/` folder:
      ```bash
      mysql -u your_username -p your_database_name < database/nebatech_votepro.sql
      ```
@@ -77,9 +77,9 @@ Ensure you have the following installed:
    - Open the `config.php` file and update the following values:
      ```php
      define('DB_HOST', 'localhost');
-     define('DB_USER', 'your_username');
-     define('DB_PASS', 'your_password');
-     define('DB_NAME', 'your_database_name');
+     define('DB_USER', 'root');
+     define('DB_PASS', '');
+     define('DB_NAME', 'nebatech_db');
      ```
 
 4. **Start your local development server:**
@@ -96,7 +96,7 @@ Ensure you have the following installed:
 - Navigate to `http://localhost:8000/admin`
 - Use the default credentials (or the ones you set during setup) to log in:
   - **Username:** `admin`
-  - **Password:** `password`
+  - **Password:** `imAbdulHafiz`
 
 ### Voter Access
 - Admins will create voters and assign them unique login credentials.
